@@ -1,18 +1,15 @@
 const { Sequelize } = require('sequelize');
 
-// Replace these values with your actual PostgreSQL database configuration
-const DB_NAME = 'PersonalDiary';
-const DB_USER = 'postgres';
-const DB_PASSWORD = 'postgres123';
-const DB_HOST = 'localhost';
-const DB_PORT = 5432; 
+const DB_URL = '';
 
-// Create Sequelize instance
-const sequelize = new Sequelize(DB_NAME, DB_USER, DB_PASSWORD, {
-  host: DB_HOST,
-  port: DB_PORT,
-  dialect: 'postgres', 
-  logging: false, 
+const sequelize = new Sequelize(DB_URL,{
+  dialect: 'postgres',
+  logging: 'false',
+  dialectOptions:{
+    ssl:{
+      require: true,
+      rejectUnauthorized: false,
+    },
+  },
 });
-
-module.exports = sequelize;
+module.exports = sequlize;
