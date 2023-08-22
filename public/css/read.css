@@ -1,0 +1,32 @@
+/* styles.css */
+
+body {
+    background-color: #ffffed;
+    font-family: Arial, sans-serif;
+}
+
+.diary-entries {
+    text-align: -webkit-center;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-date {
+    font-size: 14px;
+    color: #777;
+}
+
+.card-content {
+    font-size: 16px;
+}
+
+.icon_delete {
+    border-radius: 5px;
+}
+
+.icon {
+    border-radius: 5px;
+}

@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.top-color {
+    background-color: #ffffed;
+}
+
+.img {
+    position: relative;
+}
+
+.image-index {
+    width: 100%;
+}
+
+.todo-list {
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    border: 1px solid #f9f79a;
+    background: #f9f79a;
+    padding: 1em 3em;
+    border-radius: 7px;
+    text-decoration: none;
+    color: black;
+}
+
+.btn-add {
+    border: 1px solid #f9f79a;
+    background: #f9f79a;
+    padding: 1em 3em;
+    border-radius: 7px;
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+}
