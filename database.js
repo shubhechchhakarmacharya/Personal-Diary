@@ -12,4 +12,4 @@ const sequelize = new Sequelize(DB_URL,{
     },
   },
 });
-module.exports = sequlize;
+module.exports = sequelize;
