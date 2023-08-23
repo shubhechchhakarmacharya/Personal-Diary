@@ -1,6 +1,6 @@
 const { Sequelize } = require('sequelize');
 
-const DB_URL = 'postgres://shubhechchha:JyrzPhQvdrtuJWzZfnypiGSUznxwOnAp@dpg-cji0rpb37aks73f80hj0-a.oregon-postgres.render.com/diaryrecords';
+const DB_URL = 'postgres://diary_413u_user:QpWWubrSE9osvnp79DYTaxfbKyKOpCLd@dpg-cjimhu7jbvhs73a7q79g-a.singapore-postgres.render.com/diary_413u';
 
 const sequelize = new Sequelize(DB_URL,{
   dialect: 'postgres',
